@@ -103,3 +103,20 @@ main {
     object-fit: contain;
     border-radius: 7%;
 }
+
+.resume-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image__wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .resume-image {
+        height: auto;
+    }
+}
