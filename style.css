@@ -1,11 +1,17 @@
 html {
     font-size: 20px;
     font-family: Arial, sans-serif;
-    height: 100%;
-    width: 100%
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/НИ_ИрГТУ_%28ИрНИТУ%29.jpg/1024px-НИ_ИрГТУ_%28ИрНИТУ%29.jpg?20150314135136');
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/НИ_ИрГТУ_%28ИрНИТУ%29.jpg/1024px-НИ_ИрГТУ_%28ИрНИТУ%29.jpg?20150314135136') repeat;
 }
 
 body {
