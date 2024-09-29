@@ -29,51 +29,16 @@ main {
 
 .background__wrapper {
     width: 900px;
-}
-
-.background__wrapper {
     background-color: rgba(20, 20, 20, 0);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
 }
 
-.flex__container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-}
-
-.flex__element {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: stretch; 
-    max-width: 300px;
-    
-    background-color: rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    box-shadow: 0 0 10px 5px rgba(200, 248, 255, 0.8);
-    
-    margin: 5px;
-    padding: 5px 15px;
-
-    margin-bottom: 15px;
-}
-
-.flex__element .flex__title {
-    margin-bottom: 0;
-    color: rgba(21, 23, 24, 0.8);
-    text-shadow: 
-        2px 2px 5px rgba(9, 10, 10, 0.4);
-}
-
-
 .resume__wrapper {
     margin: 1%;
-    text-shadow: 1px 1px 16px rgb(53, 51, 51); color: #fceaea
+    text-shadow: 1px 1px 16px rgb(53, 51, 51);
+    color: #fceaea;
 }
 
 .resume__header {
@@ -81,6 +46,12 @@ main {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+.resume__title {
+    margin-left: 0;
+    margin-bottom: 100px;
+    align-self: flex-end;
 }
 
 .resume__content {
@@ -108,15 +79,4 @@ main {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.image__wrapper {
-    text-align: center;
-    margin: 20px 0;
-}
-
-@media (max-width: 768px) {
-    .resume-image {
-        height: auto;
-    }
 }
