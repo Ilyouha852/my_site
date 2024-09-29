@@ -11,10 +11,7 @@ html, body {
 }
 
 body {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/НИ_ИрГТУ_%28ИрНИТУ%29.jpg/1024px-НИ_ИрГТУ_%28ИрНИТУ%29.jpg?20150314135136') repeat;
-}
-
-body {
+     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/НИ_ИрГТУ_%28ИрНИТУ%29.jpg/1024px-НИ_ИрГТУ_%28ИрНИТУ%29.jpg?20150314135136') repeat;
     height: 75%;
     margin: 0;
     display: flex;
