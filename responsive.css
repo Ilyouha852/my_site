@@ -2,9 +2,11 @@
     .resume__header h1 {
         text-wrap: balance;
     }
+
     p {
         text-wrap: balance;
     }
+
     .background__wrapper {
         max-width: 90vw;
     }
@@ -14,7 +16,12 @@
     .image__wrapper {
         display: none;
     }
+
     .background__wrapper {
         min-width: 250px;
+    }
+
+    body {
+        background: rgba(0, 0, 0, 0.75);
     }
 }
