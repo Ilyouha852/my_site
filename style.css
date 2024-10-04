@@ -50,7 +50,7 @@ main {
 }
 
 .resume__title {
-    margin-left: 0;
+    margin-left: 10px;
     margin-bottom: 100px;
     align-self: flex-end;
 }
