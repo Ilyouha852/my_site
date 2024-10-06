@@ -2,7 +2,8 @@ html {
     font-size: 20px;
     font-family: Arial, sans-serif;
     height: 100vh;
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/НИ_ИрГТУ_%28ИрНИТУ%29.jpg/1024px-НИ_ИрГТУ_%28ИрНИТУ%29.jpg?20150314135136') no-repeat center center fixed;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/НИ_ИрГТУ_%28ИрНИТУ%29.jpg/1024px-НИ_ИрГТУ_%28ИрНИТУ%29.jpg?20150314135136');
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -78,4 +79,9 @@ main {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
 }
